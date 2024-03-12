@@ -1,0 +1,131 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img:hover{
+    transform: scale(1.2);
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color:  brown; 
+    background-repeat: repeat-x;
+    overflow-x: auto;
+    padding-bottom: 200px;
+    padding: 20px 0;
+    width: 1500px;
+    height: 60px;
+  }
+  
+  header h1 {
+    float: left;
+    font-style: oblique;
+    font-family:monospace;
+    color: beige;
+  }
+  
+  nav ul {
+    float: right;
+
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+
+    background-image: url('https://thumbs.dreamstime.com/b/different-spices-herbs-stone-table-top-view-ingredients-cooking-food-background-different-spices-herbs-black-120232209.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+
+  }
+  .hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: black;
+    padding-left: 40px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: black;
+    padding-left: 0.2px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #cc3700;
+  }
+  
+  .featured-dishes {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .featured-dishes h2 {
+    margin-bottom: 30px;
+  }
+  
+  .dish {
+    margin-bottom: 40px;
+  }
+  
+  .dish img {
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style-type: none;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-links li img {
+    width: 30px;
+    height: auto;
+  }
+  
